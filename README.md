@@ -3,6 +3,8 @@ Description
 
 node-bind is a header-only C++ library that takes the grunt work out of creating node.js extensions.
 
+node-bind uses some C++0x features (variadic templates and some TR1 libraries) and can only be used with compilers that provide at least some C++0x support. For gcc, this means using the `--std=c++0x` option.
+
 A Quick Example
 ---------------
 
